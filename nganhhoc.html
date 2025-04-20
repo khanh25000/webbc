@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giới Thiệu Ngành Học - Trường Đại Học XYZ</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/nganhhoc.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="top-header">
+        <div class="container">
+          <div class="logo">
+            <img
+              src="./hinh5.png"
+              alt="Logo Trường Học"
+              style="border-radius: 15px"
+            />
+            <div class="school-name">
+              <h1>Trường Đại Học XYZ</h1>
+              <p>Chất lượng - Sáng tạo - Phát triển</p>
+            </div>
+          </div>
+          <div class="header-contact">
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <span>Liên hệ</span>
+                <a href="tel:0123456789">0123 456 789</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span>Email</span>
+                <a href="mailto:info@truonghocxyz.edu.vn"
+                  >info@truonghocxyz.edu.vn</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <div class="container">
+          <div class="sidebar-logo">
+            <img
+              src="./hinh5.png"
+              alt="Logo Trường Học"
+              style="border-radius: 15px"
+            />
+            <h2>Trường Đại Học</h2>
+          </div>
+          <div class="search-box">
+            <form action="#" method="GET">
+              <input type="text" placeholder="Tìm kiếm..." />
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+          <ul class="menu">
+            <li>
+              <a href="./main.html"><i class="fas fa-home"></i> Trang chủ</a>
+            </li>
+            <li class="dropdown">
+              <a href="./thongbao.html"
+                ><i class="fas fa-info-circle"></i> Thông tin
+                <i class="fas fa-chevron-down"></i
+              ></a>
+              <ul class="sub-menu">
+                <li><a href="./lichhoc.html">Thời khóa biểu</a></li>
+                <li><a href="./xemdiem.html">Xem điểm</a></li>
+                <li><a href="./lichthi.html">Lịch thi</a></li>
+                <li><a href="./hocphi.html">Đóng học phí</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#"
+                ><i class="fas fa-graduation-cap"></i> Học tập
+                <i class="fas fa-chevron-down"></i
+              ></a>
+              <ul class="sub-menu">
+                <li><a href="./dangki.html">Đăng ký môn học</a></li>
+                <li><a href="./nganhhoc.html">Chương trình đào tạo</a></li>
+                <li>
+                  <a href="https://www.w3schools.com/">Tài liệu học tập</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="./sports.html"
+                ><i class="fas fa-running"></i> Hoạt động thể thao</a
+              >
+            </li>
+            <li>
+              <a href="./thongbao.html"
+                ><i class="fas fa-bullhorn"></i> Thông báo</a
+              >
+            </li>
+            <div class="menu-divider"></div>
+            <li>
+              <a href="./main.html"
+                ><i class="fas fa-school"></i> Giới thiệu trường</a
+              >
+            </li>
+            <li>
+              <a href="./lienhe.html"><i class="fas fa-phone"></i> Liên hệ</a>
+            </li>
+            <li>
+              <a href="./nganhhoc.html"
+                ><i class="fa-brands fa-free-code-camp"></i> Giới Thiệu</a
+              >
+            </li>
+          </ul>
+          <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="page-title">
+      <div class="container">
+        <h1>Giới Thiệu Ngành Học</h1>
+        <div class="breadcrumb">
+          <a href="./main.html">Trang chủ</a>
+          <span class="separator"><i class="fas fa-angle-right"></i></span>
+          <span class="current">Giới thiệu ngành học</span>
+        </div>
+      </div>
+    </section>
+    <section class="majors-intro">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Các Ngành Đào Tạo Nổi Bật</h2>
+          <p>Khám phá các ngành học đang được đào tạo tại trường chúng tôi</p>
+        </div>
+        <div class="majors-grid">
+          <div class="major-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="major-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Công nghệ Thông tin</h3>
+            <p>
+              Đào tạo chuyên sâu về lập trình, hệ thống mạng, trí tuệ nhân tạo
+              và bảo mật thông tin.
+            </p>
+            <a href="#cntt" class="btn-more">Xem chi tiết</a>
+          </div>
+          <div class="major-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="major-icon">
+              <i class="fas fa-truck"></i>
+            </div>
+            <h3>Logistics</h3>
+            <p>
+              Chuyên về quản lý chuỗi cung ứng, vận tải đa phương thức và hải
+              quan quốc tế.
+            </p>
+            <a href="#logistics" class="btn-more">Xem chi tiết</a>
+          </div>
+
+          <div class="major-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="major-icon">
+              <i class="fas fa-car"></i>
+            </div>
+            <h3>Công nghệ Ô tô</h3>
+            <p>
+              Đào tạo kỹ sư thiết kế, chế tạo, bảo dưỡng và sửa chữa ô tô hiện
+              đại.
+            </p>
+            <a href="#oto" class="btn-more">Xem chi tiết</a>
+          </div>
+          <div class="major-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="major-icon">
+              <i class="fas fa-ruler-combined"></i>
+            </div>
+            <h3>Kiến trúc</h3>
+            <p>
+              Đào tạo kiến trúc sư với khả năng thiết kế công trình sáng tạo và
+              bền vững.
+            </p>
+            <a href="#kientruc" class="btn-more">Xem chi tiết</a>
+          </div>
+
+          <div class="major-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="major-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h3>Công nghệ Thực phẩm</h3>
+            <p>
+              Chuyên về công nghệ chế biến, bảo quản và kiểm định chất lượng
+              thực phẩm.
+            </p>
+            <a href="#thucpham" class="btn-more">Xem chi tiết</a>
+          </div>
+
+          <div class="major-card" data-aos="fade-up" data-aos-delay="600">
+            <div class="major-icon">
+              <i class="fas fa-language"></i>
+            </div>
+            <h3>Ngôn ngữ Nhật</h3>
+            <p>
+              Đào tạo chuyên sâu tiếng Nhật và văn hóa Nhật Bản cho mục đích
+              giao tiếp và dịch thuật.
+            </p>
+            <a href="#nhatngu" class="btn-more">Xem chi tiết</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="major-details" id="cntt">
+      <div class="container">
+        <div class="detail-header">
+          <div class="detail-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h2>Công nghệ Thông tin</h2>
+        </div>
+        <div class="detail-content">
+          <div class="detail-overview" data-aos="fade-right">
+            <h3>Tổng quan ngành học</h3>
+            <p>
+              Ngành Công nghệ Thông tin đào tạo sinh viên trở thành các chuyên
+              gia có khả năng phân tích, thiết kế, phát triển và vận hành các hệ
+              thống phần mềm, mạng máy tính và cơ sở dữ liệu. Chương trình học
+              cung cấp kiến thức nền tảng và chuyên sâu về lập trình, trí tuệ
+              nhân tạo, an ninh mạng và công nghệ phần mềm.
+            </p>
+            <div class="stats-grid">
+              <div class="stat-item">
+                <span class="stat-number">4</span>
+                <span class="stat-label">Năm học</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">145</span>
+                <span class="stat-label">Tín chỉ</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">95%</span>
+                <span class="stat-label">Việc làm sau tốt nghiệp</span>
+              </div>
+            </div>
+          </div>
+          <div class="detail-info" data-aos="fade-left">
+            <div class="info-tabs">
+              <div class="tab-header">
+                <button class="tab-btn active" data-tab="curriculum">
+                  Chương trình đào tạo
+                </button>
+                <button class="tab-btn" data-tab="career">
+                  Cơ hội nghề nghiệp
+                </button>
+                <button class="tab-btn" data-tab="facilities">
+                  Cơ sở vật chất
+                </button>
+              </div>
+              <div class="tab-content active" id="curriculum">
+                <ul>
+                  <li>Nhập môn lập trình</li>
+                  <li>Cấu trúc dữ liệu và giải thuật</li>
+                  <li>Lập trình hướng đối tượng</li>
+                  <li>Cơ sở dữ liệu</li>
+                  <li>Mạng máy tính</li>
+                  <li>An toàn thông tin</li>
+                  <li>Trí tuệ nhân tạo</li>
+                  <li>Đồ án tốt nghiệp</li>
+                </ul>
+              </div>
+              <div class="tab-content" id="career">
+                <ul>
+                  <li>Lập trình viên</li>
+                  <li>Kỹ sư phần mềm</li>
+                  <li>Chuyên viên phân tích hệ thống</li>
+                  <li>Quản trị mạng</li>
+                  <li>Chuyên gia bảo mật</li>
+                  <li>Kỹ sư AI/ML</li>
+                  <li>Quản lý dự án CNTT</li>
+                </ul>
+              </div>
+              <div class="tab-content" id="facilities">
+                <ul>
+                  <li>Phòng lab máy tính hiện đại</li>
+                  <li>Trung tâm nghiên cứu AI</li>
+                  <li>Phòng thực hành mạng Cisco</li>
+                  <li>Thư viện điện tử chuyên ngành</li>
+                  <li>Không gian làm việc sáng tạo</li>
+                </ul>
+              </div>
+            </div>
+            <div class="admission-info">
+              <h4>Thông tin tuyển sinh</h4>
+              <p>
+                <i class="fas fa-calendar-alt"></i> Thời gian nhận hồ sơ: Từ
+                01/03 đến 30/06 hàng năm
+              </p>
+              <p>
+                <i class="fas fa-book"></i> Tổ hợp môn xét tuyển: A00 (Toán, Lý,
+                Hóa), A01 (Toán, Lý, Anh), D01 (Toán, Văn, Anh)
+              </p>
+              <a href="#" class="btn-apply">Đăng ký ngay</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="major-details" id="logistics">
+      <div class="container">
+        <div class="detail-header">
+          <div class="detail-icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <h2>Logistics</h2>
+        </div>
+        <div class="detail-content">
+          <div class="detail-overview" data-aos="fade-right">
+            <h3>Tổng quan ngành học</h3>
+            <p>
+              Ngành Logistics và Quản lý chuỗi cung ứng đào tạo các chuyên gia
+              có khả năng quản lý, điều phối và tối ưu hóa các hoạt động vận
+              tải, kho bãi, phân phối hàng hóa trong nước và quốc tế. Chương
+              trình tập trung vào các kỹ năng quản lý chuỗi cung ứng, vận tải đa
+              phương thức, thủ tục hải quan và công nghệ logistics hiện đại.
+            </p>
+            <div class="stats-grid">
+              <div class="stat-item">
+                <span class="stat-number">4</span>
+                <span class="stat-label">Năm học</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">140</span>
+                <span class="stat-label">Tín chỉ</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">90%</span>
+                <span class="stat-label">Việc làm sau tốt nghiệp</span>
+              </div>
+            </div>
+          </div>
+          <div class="detail-info" data-aos="fade-left">
+            <div class="info-tabs">
+              <div class="tab-header">
+                <button class="tab-btn active" data-tab="curriculum">
+                  Chương trình đào tạo
+                </button>
+                <button class="tab-btn" data-tab="career">
+                  Cơ hội nghề nghiệp
+                </button>
+                <button class="tab-btn" data-tab="facilities">
+                  Cơ sở vật chất
+                </button>
+              </div>
+              <div class="tab-content active" id="curriculum">
+                <ul>
+                  <li>Nguyên lý quản trị kinh doanh</li>
+                  <li>Quản trị logistics</li>
+                  <li>Quản trị chuỗi cung ứng</li>
+                  <li>Vận tải đa phương thức</li>
+                  <li>Thủ tục hải quan</li>
+                  <li>Quản trị kho bãi</li>
+                  <li>Hệ thống thông tin logistics</li>
+                  <li>Đồ án tốt nghiệp</li>
+                </ul>
+              </div>
+              <div class="tab-content" id="career">
+                <ul>
+                  <li>Chuyên viên logistics</li>
+                  <li>Quản lý chuỗi cung ứng</li>
+                  <li>Chuyên viên xuất nhập khẩu</li>
+                  <li>Quản lý kho bãi</li>
+                  <li>Điều phối viên vận tải</li>
+                  <li>Chuyên viên hải quan</li>
+                  <li>Nhân viên thu mua</li>
+                </ul>
+              </div>
+              <div class="tab-content" id="facilities">
+                <ul>
+                  <li>Phòng mô phỏng logistics</li>
+                  <li>Phần mềm quản lý chuỗi cung ứng</li>
+                  <li>Thư viện chuyên ngành</li>
+                  <li>Phòng thực hành nghiệp vụ hải quan</li>
+                  <li>Phòng lab công nghệ logistics</li>
+                </ul>
+              </div>
+            </div>
+            <div class="admission-info">
+              <h4>Thông tin tuyển sinh</h4>
+              <p>
+                <i class="fas fa-calendar-alt"></i> Thời gian nhận hồ sơ: Từ
+                01/03 đến 30/06 hàng năm
+              </p>
+              <p>
+                <i class="fas fa-book"></i> Tổ hợp môn xét tuyển: A00 (Toán, Lý,
+                Hóa), A01 (Toán, Lý, Anh), D01 (Toán, Văn, Anh), D07 (Toán, Hóa,
+                Anh)
+              </p>
+              <a href="#" class="btn-apply">Đăng ký ngay</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Các ngành khác tương tự -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Cảm Nhận Của Sinh Viên</h2>
+          <p>Những chia sẻ từ sinh viên đã và đang theo học tại trường</p>
+        </div>
+        <div class="testimonial-slider" data-aos="fade-up">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-card">
+                  <div class="student-info">
+                    <img src="./images/student1.jpg" alt="Sinh viên" />
+                    <div>
+                      <h4>Nguyễn Văn A</h4>
+                      <span>Công nghệ Thông tin - K15</span>
+                    </div>
+                  </div>
+                  <div class="testimonial-content">
+                    <p>
+                      "Chương trình học CNTT tại trường rất thực tế và bám sát
+                      nhu cầu doanh nghiệp. Sau khi tốt nghiệp, tôi đã có việc
+                      làm ngay tại một công ty phần mềm lớn với mức lương hấp
+                      dẫn."
+                    </p>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-card">
+                  <div class="student-info">
+                    <img src="./images/student2.jpg" alt="Sinh viên" />
+                    <div>
+                      <h4>Trần Thị B</h4>
+                      <span>Logistics - K14</span>
+                    </div>
+                  </div>
+                  <div class="testimonial-content">
+                    <p>
+                      "Ngành Logistics tại trường mang lại cho tôi nhiều kiến
+                      thức thực tế qua các chuyến tham quan doanh nghiệp và dự
+                      án thực tế. Giảng viên nhiệt tình và luôn hỗ trợ sinh
+                      viên."
+                    </p>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-card">
+                  <div class="student-info">
+                    <img src="./images/student3.jpg" alt="Sinh viên" />
+                    <div>
+                      <h4>Lê Văn C</h4>
+                      <span>Công nghệ Ô tô - K16</span>
+                    </div>
+                  </div>
+                  <div class="testimonial-content">
+                    <p>
+                      "Cơ sở vật chất ngành Ô tô rất hiện đại với nhiều thiết bị
+                      thực hành mới. Chúng tôi được tiếp cận với công nghệ ô tô
+                      điện và tự động hóa ngay từ năm thứ 2."
+                    </p>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container" data-aos="fade-up">
+        <h2>Bạn đã sẵn sàng trở thành sinh viên của chúng tôi?</h2>
+        <p>
+          Hãy đăng ký ngay hôm nay để bắt đầu hành trình học tập và phát triển
+          sự nghiệp của bạn
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-row">
+            <div class="footer-col">
+              <div class="footer-logo">
+                <img
+                  src="./hinh5.png"
+                  alt="Logo Trường Học"
+                  style="border-radius: 15px"
+                />
+                <h3>Trường Đại Học XYZ</h3>
+              </div>
+              <p>
+                Nơi ươm mầm tài năng, phát triển toàn diện giá trị con người.
+                Chúng tôi cam kết cung cấp môi trường học tập hiện đại, sáng tạo
+                và thân thiện.
+              </p>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <div class="footer-col">
+              <h4>Liên kết nhanh</h4>
+              <ul>
+                <li><a href="./main.html">Trang chủ</a></li>
+                <li><a href="./main.html">Thông tin</a></li>
+                <li><a href="./sport.html">Hoạt động thể thao</a></li>
+                <li><a href="./thongbao.html">Thông báo</a></li>
+                <li><a href="./lienhe.html">Liên hệ</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Thông tin học sinh</h4>
+              <ul>
+                <li><a href="./lichhoc.html">Thời khóa biểu</a></li>
+                <li><a href="./xemdiem.html">Xem điểm</a></li>
+                <li><a href="./lichthi.html">Lịch thi</a></li>
+                <li><a href="./hocphi.html">Đóng học phí</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Thông tin liên hệ</h4>
+              <div class="contact-info">
+                <p>
+                  <i class="fas fa-map-marker-alt"></i> 123 Đường ABC, Quận XYZ,
+                  Thành phố HCM
+                </p>
+                <p><i class="fas fa-phone"></i> 0123 456 789</p>
+                <p><i class="fas fa-envelope"></i> info@truonghocxyz.edu.vn</p>
+                <p>
+                  <i class="fas fa-clock"></i> Thứ Hai - Thứ Sáu: 7:00 - 17:00
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2025 Trường Đại Học XYZ. Tất cả quyền được bảo lưu.</p>
+          <div class="footer-links">
+            <a href="#">Điều khoản sử dụng</a>
+            <a href="#">Chính sách bảo mật</a>
+            <a href="about.html" class="author-link">Giới thiệu</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#" class="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/nganhhoc.js"></script>
+  </body>
+</html>
